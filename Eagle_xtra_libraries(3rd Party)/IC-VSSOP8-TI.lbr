@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.3.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="Parts" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="SSOP8">
+<wire x1="-1.55" y1="1.45" x2="1.55" y2="1.45" width="0.127" layer="21"/>
+<wire x1="1.55" y1="1.45" x2="1.55" y2="-1.45" width="0.127" layer="21"/>
+<wire x1="1.55" y1="-1.45" x2="-1.55" y2="-1.45" width="0.127" layer="21"/>
+<wire x1="-1.55" y1="-1.45" x2="-1.55" y2="1.45" width="0.127" layer="21"/>
+<circle x="-1.15" y="-1.05" radius="0.15" width="0" layer="51"/>
+<smd name="1" x="-0.975" y="-1.9" dx="0.4" dy="0.7" layer="1"/>
+<smd name="2" x="-0.325" y="-1.9" dx="0.4" dy="0.7" layer="1"/>
+<smd name="3" x="0.325" y="-1.9" dx="0.4" dy="0.7" layer="1"/>
+<smd name="4" x="0.975" y="-1.9" dx="0.4" dy="0.7" layer="1"/>
+<smd name="5" x="0.975" y="1.9" dx="0.4" dy="0.7" layer="1"/>
+<smd name="6" x="0.325" y="1.9" dx="0.4" dy="0.7" layer="1"/>
+<smd name="7" x="-0.325" y="1.9" dx="0.4" dy="0.7" layer="1"/>
+<smd name="8" x="-0.975" y="1.9" dx="0.4" dy="0.7" layer="1"/>
+<text x="-2.556" y="-2.5999" size="1.016" layer="25" rot="R90">&gt;NAME</text>
+<text x="3.856" y="-2.6999" size="1.016" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-1.125" y1="1.4" x2="-0.825" y2="2.1" layer="51"/>
+<rectangle x1="-0.475" y1="1.4" x2="-0.175" y2="2.1" layer="51"/>
+<rectangle x1="0.175" y1="1.4" x2="0.475" y2="2.1" layer="51"/>
+<rectangle x1="0.825" y1="1.4" x2="1.125" y2="2.1" layer="51"/>
+<rectangle x1="-1.125" y1="-2.1" x2="-0.825" y2="-1.4" layer="51"/>
+<rectangle x1="-0.475" y1="-2.1" x2="-0.175" y2="-1.4" layer="51"/>
+<rectangle x1="0.175" y1="-2.1" x2="0.475" y2="-1.4" layer="51"/>
+<rectangle x1="0.825" y1="-2.1" x2="1.125" y2="-1.4" layer="51"/>
+</package>
+<package name="VSSOP8">
+<wire x1="-1.05" y1="1.2" x2="1.05" y2="1.2" width="0.127" layer="21"/>
+<wire x1="1.05" y1="1.2" x2="1.05" y2="-1.2" width="0.127" layer="21"/>
+<wire x1="1.05" y1="-1.2" x2="-1.05" y2="-1.2" width="0.127" layer="21"/>
+<wire x1="-1.05" y1="-1.2" x2="-1.05" y2="1.2" width="0.127" layer="21"/>
+<circle x="-0.75" y="-0.9" radius="0.15" width="0" layer="51"/>
+<smd name="1" x="-0.75" y="-1.55" dx="0.35" dy="0.55" layer="1"/>
+<smd name="2" x="-0.25" y="-1.55" dx="0.35" dy="0.55" layer="1"/>
+<smd name="3" x="0.25" y="-1.55" dx="0.35" dy="0.55" layer="1"/>
+<smd name="4" x="0.75" y="-1.55" dx="0.35" dy="0.55" layer="1"/>
+<smd name="5" x="0.75" y="1.55" dx="0.35" dy="0.55" layer="1"/>
+<smd name="6" x="0.25" y="1.55" dx="0.35" dy="0.55" layer="1"/>
+<smd name="7" x="-0.25" y="1.55" dx="0.35" dy="0.55" layer="1"/>
+<smd name="8" x="-0.75" y="1.55" dx="0.35" dy="0.55" layer="1"/>
+<text x="-1.756" y="-1.2999" size="1.016" layer="25" rot="R90">&gt;NAME</text>
+<text x="2.456" y="-1.2999" size="1.016" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-0.875" y1="1.25" x2="-0.625" y2="1.65" layer="51"/>
+<rectangle x1="-0.375" y1="1.25" x2="-0.125" y2="1.65" layer="51"/>
+<rectangle x1="0.125" y1="1.25" x2="0.375" y2="1.65" layer="51"/>
+<rectangle x1="0.625" y1="1.25" x2="0.875" y2="1.65" layer="51"/>
+<rectangle x1="-0.875" y1="-1.65" x2="-0.625" y2="-1.25" layer="51"/>
+<rectangle x1="-0.375" y1="-1.65" x2="-0.125" y2="-1.25" layer="51"/>
+<rectangle x1="0.125" y1="-1.65" x2="0.375" y2="-1.25" layer="51"/>
+<rectangle x1="0.625" y1="-1.65" x2="0.875" y2="-1.25" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="7408">
+<text x="-5.08" y="5.715" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="PWR_GND">
+<text x="-0.635" y="-0.635" size="1.778" layer="95">&gt;NAME</text>
+<text x="1.905" y="-5.842" size="1.27" layer="95" rot="R90">GND</text>
+<text x="1.905" y="2.54" size="1.27" layer="95" rot="R90">VCC</text>
+<pin name="GND" x="0" y="-7.62" visible="pad" length="middle" direction="pwr" rot="R90"/>
+<pin name="VCC" x="0" y="7.62" visible="pad" length="middle" direction="pwr" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SN74LVC2G08" prefix="U">
+<description>Ti's &lt;b&gt;SN74LVC2G08&lt;/b&gt; DUAL 2-INPUT POSITIVE-AND GATE
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;DESCRIPTION:&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;
+The SN74LVC2G08 performs the Boolean function Y =  A * B or Y =/( /A * /B ) in positive logic.&lt;br&gt;
+This dual 2-input positive-AND gate is designed for 1.65-V to 5.5-V VCC operation.&lt;br&gt;
+NanoStar and NanoFree package technology is a major breakthrough in IC packaging concepts, using the&lt;br&gt;
+die as the package.&lt;br&gt;
+This device is fully specified for partial-power-down applications using Ioff. The Ioff circuitry disables the outputs,&lt;br&gt;
+preventing damaging current backflow through the device when it is powered down.&lt;br&gt;
+&lt;br&gt;
+
+&lt;b&gt;Features:&lt;/b&gt;
+&lt;ul&gt;
+	&lt;li&gt;Available in the Texas Instruments NanoStar and NanoFree Packages
+	&lt;li&gt;Supports 5-V VCC Operation
+	&lt;li&gt;Inputs Accept Voltages to 5.5 V
+	&lt;li&gt;Max tpd of 4.7 ns at 3.3 V
+	&lt;li&gt;Low Power Consumption, 10-uA Max ICC
+	&lt;li&gt;±24-mA Output Drive at 3.3 V
+	&lt;li&gt;Typical VOLP (Output Ground Bounce) &lt;0.8 V at VCC = 3.3 V, TA = 25°C
+	&lt;li&gt;Typical VOHV (Output VOH Undershoot) &gt;2 V at VCC = 3.3 V, TA = 25°C
+	&lt;li&gt;Ioff Supports Partial-Power-Down Mode Operation
+	&lt;li&gt; Latch-Up Performance Exceeds 100 mA Per JESD 78, Class II
+	&lt;li&gt;ESD Protection Exceeds JESD 22&lt;br&gt;
+	- 2000-V Human-Body Model (A114-A)&lt;br&gt;
+	- 1000-V Charged-Device Model (C101)&lt;br&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;messi@users.sourceforge.net&lt;/a&gt;</description>
+<gates>
+<gate name=".1" symbol="7408" x="0" y="10.16"/>
+<gate name=".2" symbol="7408" x="0" y="-10.16"/>
+<gate name=".3" symbol="PWR_GND" x="-27.94" y="0" addlevel="request"/>
+</gates>
+<devices>
+<device name="-DCU" package="VSSOP8">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
