@@ -59,23 +59,23 @@
 </layers>
 <library>
 <packages>
-<package name="SDR1005">
+<package name="SDR1806">
 <description>&lt;B&gt;SMD POWER INDUCTOR&lt;/B&gt;</description>
-<wire x1="-6.35" y1="1.905" x2="-1.905" y2="4.822" width="0.254" layer="21"/>
-<wire x1="6.35" y1="1.905" x2="1.905" y2="4.822" width="0.254" layer="21"/>
-<wire x1="6.35" y1="-1.905" x2="1.905" y2="-4.822" width="0.254" layer="21"/>
-<wire x1="-6.35" y1="-1.905" x2="-1.905" y2="-4.822" width="0.254" layer="21"/>
-<wire x1="-1.905" y1="4.822" x2="1.905" y2="4.822" width="0.254" layer="21" curve="-51.465663"/>
-<wire x1="-1.905" y1="-4.822" x2="1.905" y2="-4.822" width="0.254" layer="21" curve="51.465663"/>
-<wire x1="-6.35" y1="1.905" x2="-6.35" y2="-1.905" width="0.254" layer="51"/>
-<wire x1="6.35" y1="1.905" x2="6.35" y2="-1.905" width="0.254" layer="51"/>
+<wire x1="-10.16" y1="1.905" x2="-1.905" y2="6.092" width="0.254" layer="21"/>
+<wire x1="10.16" y1="1.905" x2="1.905" y2="6.092" width="0.254" layer="21"/>
+<wire x1="10.16" y1="-1.905" x2="1.905" y2="-6.092" width="0.254" layer="21"/>
+<wire x1="-10.16" y1="-1.905" x2="-1.905" y2="-6.092" width="0.254" layer="21"/>
+<wire x1="-1.905" y1="6.092" x2="1.905" y2="6.092" width="0.254" layer="21" curve="-51.465663"/>
+<wire x1="-1.905" y1="-6.092" x2="1.905" y2="-6.092" width="0.254" layer="21" curve="51.465663"/>
+<wire x1="-10.16" y1="1.905" x2="-10.16" y2="-1.905" width="0.254" layer="51"/>
+<wire x1="10.16" y1="1.905" x2="10.16" y2="-1.905" width="0.254" layer="51"/>
 <wire x1="-3.81" y1="-1.778" x2="-3.81" y2="1.778" width="0.254" layer="51" curve="-50.033787" cap="flat"/>
 <wire x1="-3.81" y1="1.778" x2="3.81" y2="1.778" width="0.254" layer="51" curve="-129.966213" cap="flat"/>
 <wire x1="3.81" y1="1.778" x2="3.81" y2="-1.778" width="0.254" layer="51" curve="-50.033787" cap="flat"/>
 <wire x1="-3.81" y1="-1.778" x2="3.81" y2="-1.778" width="0.254" layer="51" curve="129.966213" cap="flat"/>
-<smd name="1" x="-5.28" y="0" dx="2.92" dy="2.79" layer="1"/>
-<smd name="2" x="5.28" y="0" dx="2.92" dy="2.79" layer="1"/>
-<text x="5.08" y="3.81" size="1.016" layer="25" ratio="18">&gt;NAME</text>
+<smd name="1" x="-9.09" y="0" dx="4" dy="3" layer="1"/>
+<smd name="2" x="9.09" y="0" dx="4" dy="3" layer="1"/>
+<text x="-2.54" y="1.27" size="1.016" layer="25" ratio="18">&gt;NAME</text>
 <text x="-2.54" y="-1.27" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 </packages>
@@ -98,13 +98,17 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SDR1005" prefix="L">
+<deviceset name="SDR1806" prefix="L">
 <description>&lt;b&gt;POWER INDUCTOR&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="L" x="0" y="2.54"/>
 </gates>
 <devices>
-<device name="" package="SDR1005">
+<device name="" package="SDR1806">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
